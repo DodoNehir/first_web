@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    width: 1000px;
+    margin: 8px;
+    grid-template-rows: repeat(2, 250px);
+    grid-template-columns: repeat(4, 250px);
+}
+
+.item{
+    display: grid;
+    width: 250px;
+    height: 250px;
+    /* align-content: center; */
+    align-self: center;
+}
+
+.item img{
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.item h3{
+    margin: 0;
+}
+
+.item p{
+    margin: 0;
+}
